@@ -1,0 +1,7 @@
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\obj\Debug\ProgramovaniUvod.csproj.AssemblyReference.cache
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\obj\Debug\ProgramovaniUvod.csproj.CoreCompileInputs.cache
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\bin\Debug\ProgramovaniUvod.exe.config
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\bin\Debug\ProgramovaniUvod.exe
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\bin\Debug\ProgramovaniUvod.pdb
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\obj\Debug\ProgramovaniUvod.exe
+Z:\Programko\ProgramovaniUvod\ProgramovaniUvod\obj\Debug\ProgramovaniUvod.pdb
