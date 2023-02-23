@@ -64,8 +64,8 @@ namespace ProgramovaniUvod
             }*/
 
 
-            /* //Kalkulačka
-            Console.WriteLine("zadej číslo");
+            //Kalkulačka
+           /* Console.WriteLine("zadej číslo");
             float a = float.Parse(Console.ReadLine()); //pro desetinne cisla nepouzivame convert to int ale float parse
             Console.WriteLine("zadej druhé číslo");
             float b = float.Parse(Console.ReadLine());
@@ -101,7 +101,48 @@ namespace ProgramovaniUvod
                else
             {
                 Console.WriteLine("zvolte volbu 1-4");
-            }    */
+            }*/
+
+
+            Console.WriteLine("zadej číslo");
+            float a = float.Parse(Console.ReadLine()); //pro desetinne cisla nepouzivame convert to int ale float parse
+            Console.WriteLine("zadej znak (+ - sčítání, - - odčítání, * - násobení, / - dělení)");
+            char znak = Console.ReadLine();
+            Console.WriteLine("zadej druhé číslo");
+            float b = float.Parse(Console.ReadLine());
+            Console.WriteLine("zadej  ()");
+           
+
+            if (new char[] { +, -, *, / }.Contains(znak)) //nový array s hodnotou pouze celého čísla, hodnoty +, -, *, /
+            {
+                if (znak == 1)
+                {
+                    Console.WriteLine("výsledek:" + (a + b));
+                }
+                if (znak == 2)
+                {
+                    Console.WriteLine("výsledek:" + (a - b));
+                }
+                if (znak == 3)
+                {
+                    Console.WriteLine("výsledek:" + (a * b));
+                }
+                if (znak == 4)
+                {
+                    if (b != 0)
+                    {
+                        Console.WriteLine("výsledek:" + (a / b));
+                    }
+                    else
+                    {
+                        Console.WriteLine("nejde delit 0");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("zvolte znak +, -, *, /");
+            }
 
             /*Console.WriteLine("nacti cislo");
             int a = Convert.ToInt16(Console.ReadLine());
@@ -125,11 +166,70 @@ namespace ProgramovaniUvod
 
             float vysledek = x / y;
             Console.WriteLine("Dělení:" + vysledek);*/
+            //komentování oznaceneho textu ctrl + ckc, odoznaceni ctrl + cku
+            //char znak = Convert.ToChar(Console.ReadLine()); //jedna moznost
+            //char znak2 = char.Parse(Console.ReadLine()); //druha moznost
+            //Console.WriteLine("Obsah charu: " + znak + ", " + znak2);
+            //Console.WriteLine("Obsah charu v ASCI: " + "alt+" + (int)znak + ", " + (int)znak2);
 
-            char znak = Convert.ToChar(Console.ReadLine()); //jedna moznost
-            char znak2 = char.Parse(Console.ReadLine()); //druha moznost
-            Console.WriteLine("Obsah charu: " + znak + ", " + znak2);
-            Console.WriteLine("Obsah charu v ASCI: " + (int)znak + ", " + (int)znak2);
+            /*Console.WriteLine("zadej cislo vetsi nez 0");
+            int a = Convert.ToInt16(Console.ReadLine());
+
+            if (a >= 0)
+            { 
+            if (a == 0) //výraz, podmínka se testuje nebo vyhodnocuje
+
+            {
+                Console.WriteLine("jsi nula");
+            }
+            //příkaz
+            else
+            {
+                Console.WriteLine("jsi nula tak i tak, jine cislo nic neznamena :)");
+            }
+            }
+            else
+            {
+                Console.WriteLine("rekl jsem vetsi");
+            }
+            
+            // = přizazeni, např. do proměnné
+            // == pozovnání, např. dvou hodnot*/
+
+            /*Console.WriteLine("Hodnota PI = " + Math.PI);
+            Console.WriteLine("Odmocnina = " + Math.Sqrt(10.2));
+
+            Console.WriteLine("Zadejte desetinné číslo pro výpočet odmocniny: ");
+            double x = double.Parse(Console.ReadLine());
+            if (x >= 0) //Podmínka vyhodnotí číslo včetně nuly
+            {
+                double vysledek = Math.Sqrt(x);
+                Console.WriteLine("Odmocnina = " + vysledek);
+            }
+            else
+            {
+                Console.WriteLine("Hodnota musí být větší než nula.");
+            }
+            Console.WriteLine("Mocnina = " + Math.Pow(x, 2)); //Power --> mocnina
+            //první parametr je základ čísla a druhý parametr je mocnitel*/
+
+            /*Console.WriteLine("Zadejte základ čísla: ");
+            double x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Zadejte exponent: ");
+            double n = double.Parse(Console.ReadLine());
+            double vysledek = Math.Pow(x, n);
+            Console.WriteLine("Výsledek = " + vysledek);*/
+
+            /*Console.WriteLine("zadej první číslo: ");
+            int a = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("zadej druhé číslo: ");
+            int b = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("vysledek: " + (a+b));*/
+
+
+
+
             Console.ReadKey(); //ukončí se program po -- klavesy
         }
     }
