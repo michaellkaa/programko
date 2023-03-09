@@ -63,9 +63,9 @@ namespace ProgramovaniUvod
                 Console.WriteLine("číslo je liché");  
             }*/
 
-
+            /*
             //Kalkulačka
-           /* Console.WriteLine("zadej číslo");
+            Console.WriteLine("zadej číslo");
             float a = float.Parse(Console.ReadLine()); //pro desetinne cisla nepouzivame convert to int ale float parse
             Console.WriteLine("zadej druhé číslo");
             float b = float.Parse(Console.ReadLine());
@@ -101,48 +101,10 @@ namespace ProgramovaniUvod
                else
             {
                 Console.WriteLine("zvolte volbu 1-4");
-            }*/
-
-
-            Console.WriteLine("zadej číslo");
-            float a = float.Parse(Console.ReadLine()); //pro desetinne cisla nepouzivame convert to int ale float parse
-            Console.WriteLine("zadej znak (+ - sčítání, - - odčítání, * - násobení, / - dělení)");
-            char znak = Console.ReadLine();
-            Console.WriteLine("zadej druhé číslo");
-            float b = float.Parse(Console.ReadLine());
-            Console.WriteLine("zadej  ()");
-           
-
-            if (new char[] { +, -, *, / }.Contains(znak)) //nový array s hodnotou pouze celého čísla, hodnoty +, -, *, /
-            {
-                if (znak == 1)
-                {
-                    Console.WriteLine("výsledek:" + (a + b));
-                }
-                if (znak == 2)
-                {
-                    Console.WriteLine("výsledek:" + (a - b));
-                }
-                if (znak == 3)
-                {
-                    Console.WriteLine("výsledek:" + (a * b));
-                }
-                if (znak == 4)
-                {
-                    if (b != 0)
-                    {
-                        Console.WriteLine("výsledek:" + (a / b));
-                    }
-                    else
-                    {
-                        Console.WriteLine("nejde delit 0");
-                    }
-                }
             }
-            else
-            {
-                Console.WriteLine("zvolte znak +, -, *, /");
-            }
+            */
+
+
 
             /*Console.WriteLine("nacti cislo");
             int a = Convert.ToInt16(Console.ReadLine());
@@ -226,9 +188,187 @@ namespace ProgramovaniUvod
             int b = Convert.ToInt16(Console.ReadLine());
 
             Console.WriteLine("vysledek: " + (a+b));*/
+            /*int a = Convert.ToInt32(Console.ReadLine());
+            if (a % 2 == 0)
+            {
+                Console.WriteLine("Číslo je sudé");
+            }
+            else 
+            {
+                Console.WriteLine("Číslo je liché");
+            }
+            */
+            /*
+            Console.WriteLine("Hodnota PI = " + Math.PI);
+            Console.WriteLine("Odmocnina = " + Math.Sqrt(10.2));
 
+            Console.WriteLine("Zadejte desetinné číslo pro výpočet odmocniny: ");
+            double x = double.Parse(Console.ReadLine());
+            if (x >= 0) //Podmínka vyhodnotí číslo včetně nuly
+            {
+                double vysledek = Math.Sqrt(x);
+                Console.WriteLine("Odmocnina = " + vysledek);
+            }
+            else
+            {
+                Console.WriteLine("Hodnota musí být větší než nula.");
+            }
+            Console.WriteLine("Mocnina = " + Math.Pow(x, 2)); //Power --> mocnina
+                                                              //první parametr je základ čísla a druhý parametr je mocnitel
 
+            */
+            /*
+            Console.WriteLine("Zadejte základ čísla (x): "); // x na y (5 na 2)
+            double x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Zadej exponent (y): ");
+            double n = double.Parse(Console.ReadLine());
+            double vysledek = Math.Pow(x, n);
+            Console.WriteLine("Výsledek = " + vysledek);
+            */
+            /*
+            Console.WriteLine("Načt jméno: ");
+            string name = (Console.ReadLine());//k načtení textu, není nutná konverze
+            Console.WriteLine("Jméno = " + name);
+            if (name == "Václav")
+            {
+              Console.WriteLine("Jsem Václav");
+            }
+            else if (name == "Franta")//rozšířená podmínka
+            {
+            Console.WriteLine("Jsem Franta");
+            }
+            else if (name == "Kuba")
+            {
+            Console.WriteLine("Jsem Kuba");
+            }
+            else
+            {
+            Console.WriteLine("Nejsem Václav ani Franta ani Kuba :(");
+            }
+            */
+            /*
+            Console.WriteLine("Jste žena nebo muž?");
+            string pohlavi = (Console.ReadLine());
+            if (pohlavi == "žena")
+            {
+               Console.WriteLine("Žena");
+            }
+            else if (pohlavi == "muž")
+            {
+                Console.WriteLine("Muž");
+            }
+            else
+            {
+                Console.WriteLine("neznámo");
+            }
+            */
 
+            /*
+            Console.WriteLine("Načtěte 1. desetinné číslo: ");
+            float a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Načtěte 2. desetinné číslo: ");
+            float b = float.Parse(Console.ReadLine());
+            Console.WriteLine("Načtěte znak: ");
+            char y = Char.Parse(Console.ReadLine());
+            if (y == '+')
+            {
+                float plus = a + b;
+                Console.WriteLine("Sčítání = " + plus );
+            }
+            else if (y == '-')
+            {
+                float minus = a - b;
+                Console.WriteLine("Odčítání = " + minus);
+            }
+            else if (y == '*')
+            {
+                float nasobeni = a * b;
+                Console.WriteLine("Násobení = " + nasobeni);
+            }
+            else if (y == '/')
+            {
+
+                float deleni = a / b;
+                Console.WriteLine("Dělení = " + deleni);
+
+                if (b == 0)
+                {
+                    Console.WriteLine("Nulou dělit nelze");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Chyba");
+            }
+            */
+            /*
+            string a = Console.ReadLine();
+
+            Console.WriteLine(a);
+            */
+            /*
+           // Console.WriteLine("Načtěte 1.  číslo: ");
+            float a = float.Parse(Console.ReadLine());
+            char y = Char.Parse(Console.ReadLine());
+           // Console.WriteLine("Načtěte 2.  číslo: ");
+            float b = float.Parse(Console.ReadLine());
+            //Console.WriteLine("Načtěte znak: ");
+            */
+            /*
+            Console.WriteLine("Zadej 10 čísel: ");
+            int sude = 0;
+            int liche = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                int a = Convert.ToInt16(Console.ReadLine());
+                if (a % 2 == 0)
+                {
+                    sude += 1;
+                }
+                else
+                {
+                    liche += 1;
+                }
+            }
+            Console.WriteLine("Sudé: " + sude + ", " + "Liché: " + liche);
+            */
+            /*
+            Console.WriteLine("Zadej 10 čísel: ");
+            int kladne = 0;
+            int zaporne = 0;
+            int nula = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                int a = Convert.ToInt16(Console.ReadLine());
+                if (a < 0)
+                {
+                    zaporne += 1;
+                }
+                else if (a == 0)
+                {
+                    nula += 1;
+                }
+                else
+                {
+                    kladne += 1;
+                }
+            }
+            Console.WriteLine("Kladné: " + kladne + ", " + "Záporné: " + zaporne + ", " + "Nula:" + nula);
+            */
+            int max = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                int a = Convert.ToInt32(Console.ReadLine());
+                if (a > max)
+                {
+                    max = a;
+                }
+                else
+                {
+                    max = max;
+                }
+            }
+            Console.WriteLine("Nejvyšší číslo: " + max);
 
             Console.ReadKey(); //ukončí se program po -- klavesy
         }
